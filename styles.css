@@ -197,10 +197,14 @@ button:hover{
     
     .card-2{
         width: 150px;
-        height: 30px;
+        height: 40px;
     }
 
     .box {
         width: 380px;
+    }
+
+    .cards {
+        gap: 0rem;
     }
 }
