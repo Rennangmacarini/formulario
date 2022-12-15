@@ -7,21 +7,23 @@
 body {
     font-family: Tahoma, sans-serif;
     background:url(./fundo.png);
+    
 }
 
 .cards {
     display: flex;
     justify-content:  center;
-    gap: 5rem;
+    gap: 3rem;
     align-items: center;
+    margin: 2rem 0rem;
 }
 .card-1 {
-    width: 350px;
+    width: 300px;
 }
 
 .card-2{
     width: 300px;
-    height: 100px;
+    height: 80px;
 }
 .img {
     width: 100%;
@@ -41,14 +43,14 @@ body {
 }
 
 fieldset {
-    border: 3px solid #f6db81;
+    border: 3px solid #fcd860;
 }
 
 legend {
-    border: 1px  solid #f6db81;
-    padding: 10px;
+    border: 1px  solid #fcd860;
+    padding: 15px;
     text-align: center;
-    background-color: #f6db81;
+    background-color: #ffcc26;
     border-radius: 8px;
     font-size: 1.4rem;
     color: rgb(0, 0, 0);
@@ -96,20 +98,21 @@ label {
 }
 
 #submit{
-    background-color: #f6db81;
+    background-color: #fcd860;
     width: 100%;
     border: none;
     padding: 15px;
     color: rgb(10, 0, 0);
     font-size: 1.2rem;
     cursor: pointer;
+    font-weight: bold;
     border-radius: 10px;
     text-transform: uppercase;
 }
 
 
 #submit:hover{
-    background-color: #fcd557;
+    background-color: #ffd15d;
 }
 
 .text {
@@ -130,28 +133,44 @@ button{
     margin-left: 40%;
     border-radius: 18px;
     border: none;
-    background-color: #f6db81;
+    background-color: #fcd860;
     cursor: pointer;
 }
 
 
 button:hover{
-    background-color: #fcd557;
+    background-color: #fcd03d;
 }
 
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1700px) {
+
+    legend{
+     font-size: 1rem;
+     padding: 10px;
+    }
+
     .box {
-        width: 400px;
+        width: 500px;
+        margin-top: -1rem;
     }
 
     .card-1 {
-        width: 250px;
+        width: 200px;
     }
     
     .card-2{
         width: 250px;
         height: 50px;
+    }
+
+    label{
+        font-size: 0.8rem;
+    }
+
+    #submit{
+        padding: 10px;
+        font-size: 1rem;
     }
 
 }
@@ -172,7 +191,7 @@ button:hover{
 
 @media screen and (max-width:900px) {
     .card-1 {
-        width: 200px;
+        width: 150px;
     }
     
     .card-2{
@@ -215,7 +234,7 @@ button:hover{
     }
 
     .cards {
-        gap: 0rem;
+        gap: 2rem;
     }
 
     .text {
