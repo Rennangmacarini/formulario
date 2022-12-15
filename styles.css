@@ -66,6 +66,7 @@ label {
 
 .inputBox {
     position: relative;
+    margin: 3rem 0;
 }
 
 .inputUser{
@@ -146,6 +147,22 @@ button:hover{
     background-color: #ffc400;
 }
 
+.card-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0rem;
+}
+
+.card-logo img {
+   width: 90px;
+}
+
+.card-logo .card-img{
+    width: 50px;
+}
+
 
 @media screen and (max-width:1700px) {
 
@@ -157,6 +174,15 @@ button:hover{
     .box {
         width: 500px;
         margin-top: -1rem;
+    }
+
+    .inputBox {
+        position: relative;
+        margin: 2.5rem 0;
+    }
+
+    .card-logo {
+        margin: 1.5rem 0rem;
     }
 
     .card-1 {
@@ -215,9 +241,21 @@ button:hover{
         left: 8rem;
         top: 20rem;
     }
+
+    .card-logo img {
+        width: 50px;
+     }
+     
+     .card-logo .card-img{
+         width: 30px;
+     }
 }
 
 @media screen and (max-width:600px) {
+
+    .card-logo {
+        gap: 1rem;
+    }
 
     .img {
         width: 400px;
