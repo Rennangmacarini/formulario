@@ -10,6 +10,10 @@ body {
     
 }
 
+button, a, h1 {
+    font-family: Tahoma, sans-serif; 
+}
+
 .cards {
     display: flex;
     justify-content:  center;
@@ -43,11 +47,11 @@ body {
 }
 
 fieldset {
-    border: 3px solid #fcd860;
+    border: 3px solid #ffcc26;
 }
 
 legend {
-    border: 1px  solid #fcd860;
+    border: 1px  solid #ffcc26;
     padding: 15px;
     text-align: center;
     background-color: #ffcc26;
@@ -98,7 +102,7 @@ label {
 }
 
 #submit{
-    background-color: #fcd860;
+    background-color: #ffcc26;
     width: 100%;
     border: none;
     padding: 15px;
@@ -112,7 +116,7 @@ label {
 
 
 #submit:hover{
-    background-color: #ffd15d;
+    background-color: #ffc400;
 }
 
 .text {
@@ -133,13 +137,13 @@ button{
     margin-left: 40%;
     border-radius: 18px;
     border: none;
-    background-color: #fcd860;
+    background-color:#ffcc26;
     cursor: pointer;
 }
 
 
 button:hover{
-    background-color: #fcd03d;
+    background-color: #ffc400;
 }
 
 
