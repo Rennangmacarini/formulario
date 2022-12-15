@@ -101,7 +101,7 @@ label {
     border: none;
     padding: 15px;
     color: rgb(10, 0, 0);
-    font-size: 25px;
+    font-size: 1.2rem;
     cursor: pointer;
     border-radius: 10px;
     text-transform: uppercase;
@@ -139,3 +139,68 @@ button:hover{
     background-color: #fcd557;
 }
 
+
+@media screen and (max-width:1400px) {
+    .box {
+        width: 400px;
+    }
+
+    .card-1 {
+        width: 250px;
+    }
+    
+    .card-2{
+        width: 250px;
+        height: 50px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .img {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .card-1 {
+        width: 200px;
+    }
+    
+    .card-2{
+        width: 200px;
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    .img {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .img {
+        width: 400px;
+        height: 380px;
+    }
+
+    .card-1 {
+        width: 150px;
+    }
+    
+    .card-2{
+        width: 150px;
+        height: 30px;
+    }
+
+    .box {
+        width: 380px;
+    }
+}
