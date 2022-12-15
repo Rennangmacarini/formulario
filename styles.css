@@ -163,6 +163,11 @@ button:hover{
     .img {
         width: 800px;
     }
+
+    .text {
+        left: 10rem;
+        top: 20rem;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -181,6 +186,11 @@ button:hover{
     .img {
         width: 500px;
         height: 400px;
+    }
+
+    .text {
+        left: 8rem;
+        top: 20rem;
     }
 }
 
@@ -206,5 +216,10 @@ button:hover{
 
     .cards {
         gap: 0rem;
+    }
+
+    .text {
+        left: 3rem;
+        top: 15rem;
     }
 }
