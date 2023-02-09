@@ -6,11 +6,15 @@
 
 body {
     font-family: Tahoma, sans-serif;
-    background:url(./fundo.png);
+    background-color: rgb(33, 33, 33);
 }
 
 button, a, h1 {
     font-family: Tahoma, sans-serif; 
+}
+
+h1 {
+    text-align: center;
 }
 
 .cards {
